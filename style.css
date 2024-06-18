@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.jegyarak {
+    display           :  inline-block    ;
+    float             :  right           ;
+    margin            :  40px -24px 0 0  ;
+    width             :  128px           ;
+    height            :   60px           ;
+    line-height       :   60px           ;
+    background-color  :  #AAF            ;
+    text-align        :  center          ;
+    font-size         :  16px            ;
+    font-weight       :  bold            ;
+    transform         :  rotate(-90deg)  ;
+}
+
+.sor {
+    display: inline-block;
+    height: 14px;
+    width: 24px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.jegyek {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 6px 2px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.foglalt {
+    border            :  solid 1px #844  ; 
+    background-color  :  #FAA            ;
+    color             :  #600            ;
+}
+
+.szabad {
+    border            :  solid 1px #484  ; 
+    background-color  :  #8D8            ;
+    color             :  #040            ;
+}
+
+.feladat {
+    display: block;
+}
